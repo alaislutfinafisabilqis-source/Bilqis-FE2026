@@ -157,3 +157,40 @@ a{
 .btn-primary:hover {
     transform: translateY(-2px);
 }
+
+/*Section Skill*/
+
+.skill-grid{
+    display:flex;
+    gap: 24px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.skill.card {
+    flex:1;
+    min-width: 200px;
+    background-color: var(--border);
+    border : 1px solid var(--border);
+    border-radius:10px;
+    padding: 24px;
+}
+
+.skill-tag {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    background: rgba (100, 255, 218, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.skill.card h3{
+    margin: 16px 0 8px;
+    font-size: 18px;
+}
+
+.skill.card p{
+    color: var(--text-muted);
+    font-size: 14px;
+}
